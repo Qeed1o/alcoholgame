@@ -1,4 +1,4 @@
-document.onload(() => {
+window.onload = () => {
     const p = document.getElementById('test');
-    p.innerText = "l";
-})
+    p.innerText = "hehe";
+}
