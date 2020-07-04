@@ -141,7 +141,6 @@ div#alcos{
     text-align: center;
     border: 0;
     font-size: 24px;
-    line-height: 1;
     -webkit-appearance: none;
     width: 100%;
    }
@@ -151,6 +150,6 @@ div#alcos{
     position: absolute;
     border: none;
     overflow: hidden; 
-    height: 4%;
+    height: 34px;
     background: url(http://wpandyou.ru/wp-content/uploads/2013/01/down_arrow_select.jpg) no-repeat right #DDD;
    }
