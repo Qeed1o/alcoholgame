@@ -1,4 +1,6 @@
-window.onload = () => { }
+window.onload = () => { 
+	document.body.requestFullscreen();
+}
 
 let namesArray = [];
 let alcoArray = [];
