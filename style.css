@@ -5,6 +5,16 @@ html, body{
     height: 100%;
 }
 
+div#names{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    top:0px;
+    left: 0px;
+}
+
 div.main-inputs-wrapper{
     height: 20%;
     width: 40%;
@@ -45,11 +55,10 @@ div.input-wrapper > i{
     color: #009faf;
 }
 
-div.main-wrapper{
-    background: rgb(34,193,195);
-    background: linear-gradient(30deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    height: 100%;
+div#main-wrapper{
+    background:radial-gradient(ellipse at right, rgba(255,255,255,0.5) 0%, rgba(158,0,158,1) 100%);
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -71,8 +80,12 @@ i.reset{
 @keyframes spin {
     from{
         transform: rotate(0deg);
+        width: 90%;
+        height: 35%;
     }to{
         transform: rotate(360deg);
+        width: 90%;
+        height: 35%;
     }
 }
 
@@ -82,6 +95,30 @@ i.reset{
     animation-iteration-count: 1;
 }
 
+select{
+    position: absolute;
+    top: 0px;
+}
+
+select#names{
+    left: 80%;
+}
+
+select#alcos{
+    left: 70%;
+}
+
+#winner{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
 #rocket{
     font-size: 200px;
+}
+
+#dirik{
+    width: 90%;
+    height: 35%;
 }

@@ -1,36 +1,40 @@
 <html>
 	<head>
-		
+		<meta charset="utf8">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script src="main.js" type="text/javascript"></script>
 		<link rel="stylesheet" href="style.css"></style>
-	<head>
+	</head>
 	<body>
 
-		<div class="main-wrapper">
+
+		<div id="main-wrapper">
 			<div class="main-inputs-wrapper">
 				<div class="name-input-wrapper input-wrapper">
 					<input type="text" id="name" placeholder="Имя"/>
 					<i class="fa fa-2x fa-plus" aria-hidden="true" onclick="addName()"></i>
-				</div>
+				</div> <!-- nameinput -->
 
 				<hr>
 
 				<div class="alco-input-wrapper input-wrapper">
 					<input type="text" id="alco" placeholder="Алкоголь"/>
 					<i class="fa fa-2x fa-plus" aria-hidden="true" onclick="addAlco()"></i>
-				</div>
+				</div> <!-- alcoinput-->
 			</div>
 
 			<div class="button-wrapper">
 				<i class="fa fa-2x fa-times reset" aria-hidden="true" onclick="reset()"></i>
-				<i id="rocket" class="fa fa-5x fa-rocket" aria-hidden="true" onclick="select(this)"></i>
+				<!-- <i id="rocket" class="fa fa-5x fa-rocket" aria-hidden="true" onclick="select(this)"></i> -->
+				<img src="Diriki.png" id="dirik" onclick="select(this)">
 				<p id="winner" onclick="select(this)" style="display: none;">dddds</p>
-					<!-- <p style="color: black;">Нажрёмся!</p> -->
-			</div>
-
+			</div> <!-- buttonwrapper-->
 			
-		</div>
+		</div> <!-- mainwrapper -->
+
+		<select id="names"></select>
+		<select id="alcos"></select>
+
 	</body>
 
 </html>
