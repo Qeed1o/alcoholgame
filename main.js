@@ -50,7 +50,7 @@ const select = (el) => {
    if(isRocket){
        animation(el, function(){
             document.getElementById('winner').style.color = "black"; 
-            alcoIndex = Math.floor(alcoArray.length);
+            alcoIndex = Math.floor(alcoArray.length - 1);
             const rAlco = alcoArray[alcoIndex]
             const rName = namesArray[nameIndex]
             console.log(nameIndex, namesArray[nameIndex])
