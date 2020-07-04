@@ -1,6 +1,7 @@
 window.onload = () => { 
 	//document.body.requestFullscreen();
 	window.scrollTo(0,1);
+	console.log('test');
 }
 
 let namesArray = [];
