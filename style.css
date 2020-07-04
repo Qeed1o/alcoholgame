@@ -3,7 +3,8 @@ html, body{
     padding: 0px;
     width: 100%;
     height: 100%;
-    background:radial-gradient(ellipse at right, rgba(255,255,255,0.5) 0%, rgba(158,0,158,1) 100%);
+    background: url('back.gif');
+    background-size: 100% 100%;
 }
 @font-face{
     font-family: AtariRevue;
@@ -60,7 +61,7 @@ div.input-wrapper > input {
 div.input-wrapper > i{
     /* margin-top: -2px; */
     z-index: 2;
-    color: #009faf;
+    color: orange;
 }
 
 div#main-wrapper{
@@ -119,10 +120,10 @@ div#alcos{
     width: 16%;
 }
 
-#winner{
+p#winner{
     font-size: 24px;
     font-weight: 500;
-    color: white;
+    color: orange;
 }
 
 #rocket{
