@@ -3,6 +3,14 @@ html, body{
     padding: 0px;
     width: 100%;
     height: 100%;
+    background:radial-gradient(ellipse at right, rgba(255,255,255,0.5) 0%, rgba(158,0,158,1) 100%);
+}
+@font-face{
+    font-family: AtariRevue;
+    src:url(18535.ttf)
+}
+*{
+    font-family: AtariRevue;
 }
 
 div#names{
@@ -56,7 +64,6 @@ div.input-wrapper > i{
 }
 
 div#main-wrapper{
-    background:radial-gradient(ellipse at right, rgba(255,255,255,0.5) 0%, rgba(158,0,158,1) 100%);
     width: 100%;
     height: 100%;
     display: flex;
@@ -100,12 +107,16 @@ select{
     top: 0px;
 }
 
-select#names{
-    left: 80%;
+div#names{
+    top: 0px;
+    left: 60%;
+    width: 14%;
 }
 
-select#alcos{
-    left: 70%;
+div#alcos{
+    top: 0px;
+    left: 40%;
+    width: 14%;
 }
 
 #winner{
@@ -122,3 +133,24 @@ select#alcos{
     width: 90%;
     height: 35%;
 }
+.select-style .hui {
+    
+    border-radius: 10px;
+    background: transparent;
+    height: 100%;
+    text-align: center;
+    border: 0;
+    font-size: 24px;
+    line-height: 1;
+    -webkit-appearance: none;
+    width: 100%;
+   }
+
+.select-style {
+    border-radius: 10px;
+    position: absolute;
+    border: none;
+    overflow: hidden; 
+    height: 4%;
+    background: url(http://wpandyou.ru/wp-content/uploads/2013/01/down_arrow_select.jpg) no-repeat right #DDD;
+   }

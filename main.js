@@ -8,7 +8,7 @@ let alcoIndex = 0;
 
 const addName = () => {
     const input = document.getElementById('name');
-    const select = document.getElementById('names');
+    const select = document.getElementById('nameses');
     console.log(`AddName: ${input.value}`);
     namesArray.push(input.value);
     const optionToAdd = document.createElement('option');
@@ -20,7 +20,7 @@ const addName = () => {
 
 const addAlco = () => {
     const input = document.getElementById('alco');
-    const select = document.getElementById('alcos');
+    const select = document.getElementById('alcoses');
     console.log(`AddAlco: ${input.value}`);
     alcoArray.push(input.value);
     const optionToAdd = document.createElement('option');
