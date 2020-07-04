@@ -110,13 +110,13 @@ select{
 div#names{
     top: 0px;
     left: 60%;
-    width: 14%;
+    width: 16%;
 }
 
 div#alcos{
     top: 0px;
-    left: 40%;
-    width: 14%;
+    left: 30%;
+    width: 16%;
 }
 
 #winner{
